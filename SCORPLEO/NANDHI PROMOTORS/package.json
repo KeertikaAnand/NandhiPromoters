@@ -1,0 +1,23 @@
+{
+    "name": "nandhi-promoters-website",
+    "version": "1.0.0",
+    "description": "Nandhi Promoters Real Estate Website",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "axios": "^1.8.4",
+        "body-parser": "^1.20.3",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongodb": "^6.15.0",
+        "mongoose": "^7.8.6",
+        "nodemailer": "^6.10.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
